@@ -4,7 +4,7 @@ import './App.css';
 import SearchIcon from './search.svg' 
 import MovieCard from './MovieCard';
 
-const API_URL =`http://www.omdbapi.com/?i=tt3896198&apikey=${import.meta.env.VITE_OMDB_API_KEY}`
+const API_URL =`https://www.omdbapi.com/?i=tt3896198&apikey=${import.meta.env.VITE_OMDB_API_KEY}`
 const movie1 = {
     "Title": "Spiderman the Verse",
     "Year": "2019–",
